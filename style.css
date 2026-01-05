@@ -51,22 +51,82 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     margin: 5px 0;
 }
 
 .artist {
-    font-size: 20px;
+    font-size: 22px;
     color: #d8d8d8;
 }
 
 .year {
-    font-size: 15px;
-    color: #8d8d8d;
+    font-size: 19px;
+    color: #868686;
 }
 
 .date {
     margin-top: 17px;
-    font-size: 12px;
-    color: #8d8d8dd3;
+    font-size: 15px;
+    color: #cc4444;
+}
+
+.suggestions {
+    margin: 80px auto 50px;
+    text-align: center;
+}
+
+.suggestions h2 {
+    font-weight:bold;
+    margin-bottom: 20px;
+    color: #ffffffd8;
+    text-shadow:
+       1px 1px 0 black,
+       0px 0px 0 black,
+       1px -1px 0 black,
+       0px 0px 0 black;
+}
+
+.suggestion-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.suggestion-form input {
+    background:#ffffffa9;
+    border: 1px solid #777777;
+    padding: 6px 8px;
+    color: #0e0e0e;
+    font-size: 17px;
+}
+
+.suggestion-form input::placeholder {
+    color: #444444;
+}
+
+.suggestion-form input:focus {
+    outline: none;
+    border-color: #cc4444;
+}
+
+.suggestion-form button {
+    background: transparent;
+    border: 1px solid #cc4444;
+    color: #cc4444;
+    padding: 6px 14px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.suggestion-form button:hover {
+    background: #cc4444;
+    color: #ffffff;
+}
+
+.thank-you {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffc21c;
 }
